@@ -1,0 +1,46 @@
+um usuario pode ser um representante um fornecedor e um cliente?
+um produto por mais que seja o mesmo é unico por fornecedor?
+	Ex.: Brigadeiro artesanal - Clorofina QBOA - Salame Colonial - Pão caseiro - Vinho Artesanal
+	Entendo que a foto deve ser única e por isto acredito que o melhor é manter unico por mais que tenha replicação na nossa base de dados
+Para o representante a comissão é fixa para TODOS os produtos? Poderá ser variável por protudo ou fornecedor?
+Entendo que o representante receberá apenas pelo pedido pago e quando o mesmo receberá? Imediato quando entrar os valores do cliente final?
+Para o fornecedor, a mesma pergunta acima
+Esta entrega especial que irá do fornecedor direto para o apartamento/Casa do cliente
+
+Não entendi ao certo o cadastro de valor final do fornecedor, pois terá a taxa dos 10% + o repasse do representante
+	Poderia me explicar melhor a questão do valor.
+	Colocarei um exemplo aqui do que eu entendi:
+		Historia:
+			Um fornecedor loga na plataforma
+			vai na aba produtos
+			clica no botão adicionar produtos
+				la terá a opção de upload da foto do produto
+				lá terá a opção descritivo do produto
+				lá terá a ............
+				lá terá a opção preço final cliente
+			Ele quer cadastrar o produto Roupas de Cama Casal Bordado Inglês da Dui Design
+			O custo deste para o fornecedor é de R$185,00 ele quer ter 10% de lucro sobre a venda
+			Então ele sabe que o valor que precisa inserir é de 203,5, porém a plataforma dará m aviso que será cobrado no final do mês 10% sobre as vendas realizadas
+				Neste cenário ele ve que 10% seria R$20,35 então decide imbutir mais este valor
+			Com isto ele coloca no preço final do cliente 203,5 + 20,35 = 223,85
+			Fim
+			
+			Duvida onde será descontado a comissão do representandte aqui? Talvez se faça necessário imbutir aqui este valor mesmo que automatico pelo sistema.
+			Sugestão colocar nesta área um tutorial para que o fornecedor entenda todoso os custos que envolvem para que saiba seu lucro, 
+				podemos faclmente deixar uma formula onde ele coloca o valor e ja ve o seu liquido.
+			Os gateways de pagamento cobram algumas custas para os saques, se ja transferirmos imediatamente para uma conta externa terá um custo que sugiro imbutir(porém dou uma sugestão abaixo nos items de pagamento).
+			
+Sobre os pagamentos
+	Iremos integrar com os gateways, da minha parte ok.
+	O cliente irá pagar e para o repasse qual a estratégia?
+	Sugestão:
+		Todos os pagamentos serão creditados em 1 conta única, e cada pagamento terá um identificador da conta de repasse.
+		Com isto saberemos o saldo teórico das contas dos afiliados a plataforma
+		Eles solicitam o resgate e com isto fazemos uma ted via área administrativa na V1.
+			Na v2 automatizamos as teds.
+		Premissa para isto tudo é cadastro de contas de bancos terceiros para credito para representantes e fornecedores.
+		
+		
+			
+		
+

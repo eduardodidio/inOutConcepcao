@@ -1,0 +1,149 @@
+
+
+Requisito de solução
+	Back-end / Linguagem Java
+		Dado o modelo complexo e pensando em uma facil manutencao sugiro desenvolver em linguagem Java.
+		Pros
+			A manutenção desta solução(quando pronta) será mais barata.
+			A performance deste pode ser expandivel facilmente
+				Quando tiver um alto fluxo de consumo das aplicações, bastaria expandir o plano e aumentar memória e processamento da hospedagem das aplicações.
+		Contra
+			Custo caro de hospegam
+	Back-end / Linguagem NodeJs
+		Não sugiro a contrução nesta solução pois  é complexo demais para estruturar em uma linguagem tão nova no mercado
+		Pros
+			Hospedagem barata
+		Contra
+			A manutenção(quando pronta) será cara
+			Terei de reestruturar algumas idéias abaixo para comportar caso queira seguir por este modelo
+	Front-end
+		Sugiro linguagem Angular 2+ ou REACT
+		Pros Angular 2+
+			A manutencao deste é barato pois é algo ja consolidado no mercado
+			
+Proposta Financeira
+	Meu custo de consultor é de R$95,00H. Para este projeto farei mais enconta dado o tamanho dele no valor de R$75,00H.
+	Todo codigo fonte será de propriedade de voces(peço que criem uma conta no GitHub e me passem)
+	O controle visual das atividades poderá ser acompanhado pelo Trello: https://trello.com/invite/b/vqPOhgdE/c5036fc45b5c6aab26df178eeac59286/inout
+	Sugestão de andamento
+		Conversando com o Renan, entendi que voces tocariam atividades que eu listei abaixo, entao a velocidade do projeto seria bem mais rapida.
+		Sugiro eu comecar pelo 'GROÇO' do projeto para que voces independente do andamento ja tenham o primordial
+		Todas as princiapais funcções de CRUD de Clientes/fornecedores/representantes/pedidos/Fluxo de caixa que esta no submodulo area Administrativa no total de 7 dias(4h)
+			Ao final deste voces terão o BACK-end da aplicação documentada via SWAGGER bastando ligar os modulos web nestes
+		e para poder iniciar preciso tmbm comecar com a demanda de estruturacao banco relacional(4h) e o indispensavel é a primeira rodada de kick OFF 4h
+		
+	O total destes 9 dias de trabalho dará 2700
+		1º dia Kick off
+		2º estruturacao banco
+		3º a 9º área administrativa
+	Caso acredite que o valor esta ok e de 'boa fé' se comprometerá em pagar, darei inicio aos 9 dias de trabalho.
+	Farei o trabalho e apresentarei. Se estiver completo e de acordo com as especificações que será feito no dia 1º
+		Me pagam o devido valor e passo o codigo fonte para o Git de voces.
+		E fazemos uma nova rodada vendo o que é mais prioritário.
+	Caso não
+		Revisaremos o que faltou e implementarei o necessário.	
+	
+
+
+
+Dia =4H 
+Dias de trabalho em horário flexivel com domingo livre.
+O controle visual das atividades poderá ser acompanhado pelo Trello: https://trello.com/invite/b/vqPOhgdE/c5036fc45b5c6aab26df178eeac59286/inout
+A cada 3 dias será feito um repasse do cronograma em forma de ata mostrando o andamento do cronograma e se ouve alterações
+Vocês terão meu suporte full enquanto o projeto não esteja totalmente entregue. Após a conclusão do mesmo integrarei toda a documentação para o suporte necessário e também irei 
+	me dispor com algumas horas de suporte sem custo. 
+PS. Consigo dobrar o esforço de tempo, porém este terá custo pois terei de contratar mais uma pessoa.	
+
+
+Kick Off
+	Dia 1 - necessário alinhamento, preciso de 4 horas de todos os envolvidos para fechar todos os pontos que precisamos fazer.
+	Traçar os objetivos e setar os comprometimentos de todos.
+
+Site Base e prototipos de navegações
+	Dia 2 a dia 8 - site BASE (sem integrações com Back-end)
+		Site responsivo para poder integrar via webView no App -  3 dias de desenvolvimento - 1 semana de planejamento e alinhamento artistico
+			Se tudo definido e o site for um site tradicional na quantidade de menus e links -  3 dias
+			Condições artisticas - Renan e/ou seu time irão passar e eu implanto
+
+Reserva Tecnica
+	Dia 9 - Aberto para novas demandas e ajustes solicitados pelo Owner do projeto e refinamento(se necessário) do modelo estrutural.
+
+Banco de dados
+	Dia 10 - Etruturacao banco relacional e criação - 1 dia
+
+Estrutura projeto base
+	API Login - Dias 11 a 14 	
+		Modelo de login
+			Google
+			Facebook
+			Tradicional por email
+				Verificação de conta por email
+				Recuperação de senha
+		Integração com modelo web
+	Area Administrativa - Dias 15 a 21
+		Cadastro de Fornecedores
+			Cadastro de produtos
+				Parametrizações dos atributos dos produtos
+					Foto
+					Nome
+					Descricao
+					Valor Bruto
+					Valor Liquido
+		Cadastro de Representantes
+		Cadastro de Clientes
+		Cadastro de Pedidos
+			Parametrizações dos atributos de pedidos
+	Integração API pagamentos - Dias 22 a 25
+		Pagserguro
+			Instalação
+			Autenticações
+			Validações
+			Integração com Monitoramentos
+	Sistema de caixa Interno - dia 26 a 28
+		Criação de ações de debito e credito
+			Obs. na V1 não faremos toda a integração de saldos no pagSeguro(definição)
+			Informar retirada de caixa com descrições do mesmo
+		Definições de compromisso de repasse financeiro (fornecedores e representantes)
+		
+Área de acompanhamento estratégio - Dias 29 a 31
+		Integração com google Analycts
+		Falhas de sistemas
+		Vizualização das receitas a serem pagas
+		Vizualização do Caixa interno (teórico pois o oficial deve estar na conta do pagSeguro)
+		Vizualização de pagamentos a serem repassados aos representantes e fornecedores
+
+Reserva Tecnica - dias 32 a 33
+	Revisão do modelo, demonstrativo com o Owner e reserva para ajustes necessários
+	
+Integração WEB - Dia 34 a dia 44
+	Integração com área de:
+		Clientes
+		Pedidos
+		Fornecedores
+			Cadastro
+			Edição de param
+			Adicção de produtos
+			Edição de produtos
+		Representantes
+		Paginas e filtros de buscas por produtos
+		Paginas e filtros de buscas por Representantes
+		Paginas e filtros de buscas por Fornecedores
+		Integração de pedidos e status(migalhas de pão)
+		Area Administrativa e permissões
+		
+		
+Validações para lançamento - dia 44 a 46
+	Validação e levantamento de ajustes(bugs e não bugs)
+	
+Reserva Tecnica	 - dia 47 a 48
+	Correação de BUGS e implantação de melhorias
+
+Reserva Tecnica	 - dia 49
+	Virada de chave e acompanhamento
+
+APP - dia 50 a ..... (preciso de mais especificações, mas acredito que após o projeto acima concluido)
+	Customizaçãoes de templates de view
+	Integrções e testes Android
+	Integrções e testes Iphone
+	Adição de tokens para verificação de LOGIN
+	
