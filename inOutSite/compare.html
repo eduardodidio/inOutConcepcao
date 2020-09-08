@@ -71,7 +71,7 @@
 	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
 	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
 		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">�</button>
 			<h3>Login Block</h3>
 		  </div>
 		  <div class="modal-body">
@@ -84,7 +84,7 @@
 			  </div>
 			  <div class="control-group">
 				<label class="checkbox">
-				<input type="checkbox"> Mantenha-me logado
+				<input type="checkbox"> Remember me
 				</label>
 			  </div>
 			</form>		
@@ -99,65 +99,87 @@
 </div>
 </div>
 <!-- Header End====================================================================== -->
+
 <div id="mainBody">
-<div class="container">
-	<hr class="soften">
-	<h1>Onde estamos</h1>
-	<hr class="soften"/>	
+	<div class="container">
 	<div class="row">
-		<div class="span4">
-		<h4>Endereço</h4>
-		<p>	Rua Major Tom<br/> num 258, Porto Alegre
-			<br/><br/>
-			info@inoutdelivery.com<br/>
-			Tel 123-456-6780<br/>
-			web:inoutdelivery.com.br
-		</p>		
-		</div>
-			
-		<div class="span4">
-		<h4>Horarios</h4>
-			<h5>Segunda - Sexta</h5>
-			<p>09:00 - 21:00<br/><br/></p>
-			<h5>Sabados</h5>
-			<p>09:00 - 12:00<br/><br/></p>
-		</div>
-		<div class="span4">
-		<h4>E-mail</h4>
-		<form class="form-horizontal">
-        <fieldset>
-          <div class="control-group">
-           
-              <input type="text" placeholder="name" class="input-xlarge"/>
-           
-          </div>
-		   <div class="control-group">
-           
-              <input type="text" placeholder="email" class="input-xlarge"/>
-           
-          </div>
-		   <div class="control-group">
-           
-              <input type="text" placeholder="subject" class="input-xlarge"/>
-          
-          </div>
-          <div class="control-group">
-              <textarea rows="3" id="textarea" class="input-xlarge"></textarea>
-           
-          </div>
 
-            <button class="btn btn-large" type="submit">Enviar</button>
+	<div class="span9">
+    <ul class="breadcrumb">
+		<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+		<li class="active">Products Compairsition</li>
+    </ul>
+	<h3> Products Compairsition <small class="pull-right"> 2 products are compaired </small></h3>	
+	<hr class="soft"/>
 
-        </fieldset>
-      </form>
-		</div>
-	</div>
-	<div class="row">
-	<div class="span12">
-	<iframe style="width:100%; height:300; border: 0px" scrolling="no" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=18+California,+Fresno,+CA,+United+States&amp;aq=0&amp;oq=18+California+united+state&amp;sll=39.9589,-120.955336&amp;sspn=0.007114,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=18,+Fresno,+California+93727,+United+States&amp;t=m&amp;ll=36.732762,-119.695787&amp;spn=0.017197,0.100336&amp;z=14&amp;output=embed"></iframe><br />
-	<small><a href="https://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=18+California,+Fresno,+CA,+United+States&amp;aq=0&amp;oq=18+California+united+state&amp;sll=39.9589,-120.955336&amp;sspn=0.007114,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=18,+Fresno,+California+93727,+United+States&amp;t=m&amp;ll=36.732762,-119.695787&amp;spn=0.017197,0.100336&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-	</div>
-	</div>
+	<table id="compairTbl" class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Features</th>
+                  <th>Product1 name here </th>
+                  <th>Product2 name here</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td style="text-align:center">
+					<p class="justify">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+				<img src="themes/images/products/1.jpg" alt=""/>
+				<form class="form-horizontal qtyFrm">
+				<h3> R$222.00</h3><br/>
+				 <a href="detalhes_produtos.html" class="btn btn-large btn-primary"> Add <i class=" icon-shopping-cart"></i></a>
+				 <a href="detalhes_produtos.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
+				</form>
+				</td>
+                  <td>
+				  <p class="justify">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</p>
+				<img src="themes/images/products/3.jpg" alt=""/>
+				
+				<form class="form-horizontal qtyFrm">
+				<h3> R$190.00</h3>
+				<br/>
+				 <a href="detalhes_produtos.html" class="btn btn-large btn-primary"> Add <i class=" icon-shopping-cart"></i></a>
+				 <a href="detalhes_produtos.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
+				</form>
+				  </td>
+                </tr>
+                <tr>
+                  <td>Height</td>
+                  <td>2"</td>
+                  <td>2"</td>
+                </tr>
+                <tr>
+                  <td>Deepth</td>
+                  <td>5"</td>
+                  <td>5"</td>
+                </tr>
+				<tr>
+                  <td>Dimension</td>
+                  <td>--</td>
+                  <td>--</td>
+                </tr>
+				<tr>
+                  <td>Width</td>
+                  <td>6.5"</td>
+                  <td>6.5"</td>
+                </tr>
+				<tr>
+                  <td>Weight</td>
+                  <td>0.5kg</td>
+                  <td>0.5kg</td>
+                </tr>
+              </tbody>
+            </table>		
+	<a href="produtos.html" class="btn btn-large pull-right">Voltar para produtos</a>
+	
+	
+</div>
+</div>
 </div>
 </div>
 <!-- MainBody End ============================= -->

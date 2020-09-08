@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -84,7 +84,7 @@
 			  </div>
 			  <div class="control-group">
 				<label class="checkbox">
-				<input type="checkbox"> Mantenha-me logado
+				<input type="checkbox"> Remember me
 				</label>
 			  </div>
 			</form>		
@@ -100,64 +100,161 @@
 </div>
 <!-- Header End====================================================================== -->
 <div id="mainBody">
-<div class="container">
-	<hr class="soften">
-	<h1>Onde estamos</h1>
-	<hr class="soften"/>	
+	<div class="container">
 	<div class="row">
-		<div class="span4">
+
+	<div class="span9">
+    <ul class="breadcrumb">
+		<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+		<li class="active">Cadastre-se aqui Fornecedor/Representante</li>
+    </ul>
+	<h3> Cadastro para Fornecedor/Representante</h3>	
+	<div class="well">
+	<!--
+	<div class="alert alert-info fade in">
+		<button type="button" class="close" data-dismiss="alert">×</button>
+		<strong>Lorem Ipsum is simply dummy</strong> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+	 </div>
+	<div class="alert fade in">
+		<button type="button" class="close" data-dismiss="alert">×</button>
+		<strong>Lorem Ipsum is simply dummy</strong> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+	 </div>
+	 <div class="alert alert-block alert-error fade in">
+		<button type="button" class="close" data-dismiss="alert">×</button>
+		<strong>Lorem Ipsum is simply</strong> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+	 </div> -->
+	<form class="form-horizontal" >
+		<h4>Informações pessoais</h4>
+		<div class="control-group">
+			<label class="control-label" for="inputFname1">Primeiro Nome <sup>*</sup></label>
+			<div class="controls">
+			  <input type="text" id="inputFname1" placeholder="Fulano">
+			</div>
+		 </div>
+		 <div class="control-group">
+			<label class="control-label" for="inputLnam">Sobrenome <sup>*</sup></label>
+			<div class="controls">
+			  <input type="text" id="inputLnam" placeholder="Souza">
+			</div>
+		 </div>
+		<div class="control-group">
+		<label class="control-label" for="input_email">E-mail <sup>*</sup></label>
+		<div class="controls">
+		  <input type="text" id="input_email" placeholder="abc@seuemail.com.br">
+		</div>
+	  </div>	  
+	<div class="control-group">
+		<label class="control-label" for="inputPassword1">Senha <sup>*</sup></label>
+		<div class="controls">
+		  <input type="password" id="inputPassword1" placeholder="">
+		</div>
+	  </div>	  
+		<div class="control-group">
+		<label class="control-label">Data nascimento <sup>*</sup></label>
+		<div class="controls">
+		  <select class="span1" name="days">
+				<option value="">-</option>
+					<option value="1">1&nbsp;&nbsp;</option>
+					<option value="2">2&nbsp;&nbsp;</option>
+					<option value="3">3&nbsp;&nbsp;</option>
+					<option value="4">4&nbsp;&nbsp;</option>
+					<option value="5">5&nbsp;&nbsp;</option>
+					<option value="6">6&nbsp;&nbsp;</option>
+					<option value="7">7&nbsp;&nbsp;</option>
+			</select>
+			<select class="span1" name="days">
+				<option value="">-</option>
+					<option value="1">1&nbsp;&nbsp;</option>
+					<option value="2">2&nbsp;&nbsp;</option>
+					<option value="3">3&nbsp;&nbsp;</option>
+					<option value="4">4&nbsp;&nbsp;</option>
+					<option value="5">5&nbsp;&nbsp;</option>
+					<option value="6">6&nbsp;&nbsp;</option>
+					<option value="7">7&nbsp;&nbsp;</option>
+			</select>
+			<select class="span1" name="days">
+				<option value="">-</option>
+					<option value="1">1&nbsp;&nbsp;</option>
+					<option value="2">2&nbsp;&nbsp;</option>
+					<option value="3">3&nbsp;&nbsp;</option>
+					<option value="4">4&nbsp;&nbsp;</option>
+					<option value="5">5&nbsp;&nbsp;</option>
+					<option value="6">6&nbsp;&nbsp;</option>
+					<option value="7">7&nbsp;&nbsp;</option>
+			</select>
+		</div>
+	  </div>
+
+	<div class="alert alert-block alert-error fade in">
+		<button type="button" class="close" data-dismiss="alert">×</button>
+		<strong>Lorem Ipsum is simply</strong> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+	 </div>	
+
 		<h4>Endereço</h4>
-		<p>	Rua Major Tom<br/> num 258, Porto Alegre
-			<br/><br/>
-			info@inoutdelivery.com<br/>
-			Tel 123-456-6780<br/>
-			web:inoutdelivery.com.br
-		</p>		
+				
+		<div class="control-group">
+			<label class="control-label" for="address">Endereço<sup>*</sup></label>
+			<div class="controls">
+			  <input type="text" id="address" placeholder="Rua Tenente ary Tarrago"/>
+			</div>
 		</div>
-			
-		<div class="span4">
-		<h4>Horarios</h4>
-			<h5>Segunda - Sexta</h5>
-			<p>09:00 - 21:00<br/><br/></p>
-			<h5>Sabados</h5>
-			<p>09:00 - 12:00<br/><br/></p>
+		
+		<div class="control-group">
+			<label class="control-label" for="address2">Complemento<sup>*</sup></label>
+			<div class="controls">
+			  <input type="text" id="address2" placeholder="Bloco 12, apto 403"/> 
+			</div>
 		</div>
-		<div class="span4">
-		<h4>E-mail</h4>
-		<form class="form-horizontal">
-        <fieldset>
-          <div class="control-group">
-           
-              <input type="text" placeholder="name" class="input-xlarge"/>
-           
-          </div>
-		   <div class="control-group">
-           
-              <input type="text" placeholder="email" class="input-xlarge"/>
-           
-          </div>
-		   <div class="control-group">
-           
-              <input type="text" placeholder="subject" class="input-xlarge"/>
-          
-          </div>
-          <div class="control-group">
-              <textarea rows="3" id="textarea" class="input-xlarge"></textarea>
-           
-          </div>
+		<div class="control-group">
+			<label class="control-label" for="city">Cidade<sup>*</sup></label>
+			<div class="controls">
+			  <input type="text" id="city" placeholder="Porto Alegre"/> 
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="state">Estado<sup>*</sup></label>
+			<div class="controls">
+			  <select id="state" >
+				<option value="">-</option>
+				<option value="1">Rio Grande do Sul</option><option value="2">Rio Grande do Norte</option></select>
+			</div>
+		</div>		
+		<div class="control-group">
+			<label class="control-label" for="postcode">CEP<sup>*</sup></label>
+			<div class="controls">
+			  <input type="text" id="postcode" placeholder="Zip / Postal Code"/> 
+			</div>
+		</div>
+		
 
-            <button class="btn btn-large" type="submit">Enviar</button>
-
-        </fieldset>
-      </form>
+		<div class="control-group">
+			<label class="control-label" for="aditionalInfo">Informações adicionais</label>
+			<div class="controls">
+			  <textarea name="aditionalInfo" id="aditionalInfo" cols="26" rows="3"></textarea>
+			</div>
 		</div>
-	</div>
-	<div class="row">
-	<div class="span12">
-	<iframe style="width:100%; height:300; border: 0px" scrolling="no" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=18+California,+Fresno,+CA,+United+States&amp;aq=0&amp;oq=18+California+united+state&amp;sll=39.9589,-120.955336&amp;sspn=0.007114,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=18,+Fresno,+California+93727,+United+States&amp;t=m&amp;ll=36.732762,-119.695787&amp;spn=0.017197,0.100336&amp;z=14&amp;output=embed"></iframe><br />
-	<small><a href="https://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=18+California,+Fresno,+CA,+United+States&amp;aq=0&amp;oq=18+California+united+state&amp;sll=39.9589,-120.955336&amp;sspn=0.007114,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=18,+Fresno,+California+93727,+United+States&amp;t=m&amp;ll=36.732762,-119.695787&amp;spn=0.017197,0.100336&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-	</div>
-	</div>
+	
+		<div class="control-group">
+			<label class="control-label" for="mobile">Telefone </label>
+			<div class="controls">
+			  <input type="text"  name="mobile" id="mobile" placeholder="51 9 99999999"/> 
+			</div>
+		</div>
+		
+	<p><sup>*</sup>Campos obrigatórios	</p>
+	
+	<div class="control-group">
+			<div class="controls">
+				<input type="hidden" name="email_create" value="1">
+				<input type="hidden" name="is_new_customer" value="1">
+				<input class="btn btn-large btn-success" type="submit" value="Cadastrar" />
+			</div>
+		</div>		
+	</form>
+</div>
+
+</div>
+</div>
 </div>
 </div>
 <!-- MainBody End ============================= -->
